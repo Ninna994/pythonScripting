@@ -8,6 +8,9 @@ Repository with code examples from LinkedIn Course [Link](https://www.linkedin.c
 
   ```bash
      python -m pip install requests
+     python -m pip install gspread
+     python -m pip install google-api-python-client
+     python -m pip install selenium
      import requests
   ```
 
