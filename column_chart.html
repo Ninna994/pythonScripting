@@ -1,0 +1,40 @@
+<html>
+<head>
+<script src="https://www.gstatic.com/charts/loader.js"></script>
+<script>
+  google.charts.load('current', {packages: ['corechart']});
+  google.charts.setOnLoadCallback(drawChart);
+  function drawChart () {
+    var data = google.visualization.arrayToDataTable([
+       ['Test Name', 'Diff from average'],
+       ['Test 1', -133.0],
+['Test 2', -64.0],
+['Test 4', -135.0],
+['Test 5', 168.0],
+['Test 6', 35.0],
+['Test 7', -39.0],
+['Test 8', 50.0],
+['Test 9', 143.0],
+['Test 10', -79.0],
+['Test 11', 133.0],
+['Test 12', 56.0],
+['Test 13', -134.0],
+['Test 14', 49.0],
+['Test 15', -39.0],
+['Test 16', -38.0],
+['Test 18', 50.0],
+['Test 19', -130.0],
+['Test 20', 131.0],
+
+      ],
+      false); // 'false' means that the first row contains labels, not data.
+  
+    var chart = new google.visualization.ColumnChart(document.getElementById('chart_div'));
+      chart.draw(data);
+  }
+</script>
+</head>
+<body>
+  <div id="chart_div" style="width:800; height:600"></div>
+</body>
+</html>

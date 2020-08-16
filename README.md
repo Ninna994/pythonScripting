@@ -8,11 +8,12 @@ Repository with code examples from LinkedIn Course [Link](https://www.linkedin.c
 
   ```bash
      python -m pip install requests
+     import requests
   ```
 
 # Resources
 
-- [JSON placeholder](jsonplaceholder.typicode.com)
+- [JSON placeholder](https://jsonplaceholder.typicode.com)
 
 # Rest API in Python
 
